@@ -2,8 +2,8 @@
 import subprocess
 import threading
 
-from models.datastore import Datastore 
-from models.libMMCLI_python.lmodem import Modem 
+from datastore import Datastore 
+from libMMCLI_python.lmodem import Modem 
 
 import logging
 

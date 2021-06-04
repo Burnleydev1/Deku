@@ -1,7 +1,7 @@
 #!/bin/python
 
-from models import read_daemon as sms_read
-from models import send_daemon as sms_send
+import read_daemon as sms_read
+import send_daemon as sms_send
 
 import start_routines
 import configparser
